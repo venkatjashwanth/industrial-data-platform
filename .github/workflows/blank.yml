@@ -1,0 +1,12 @@
+   git init
+   git add data python sql requirements.txt
+   git commit -m "Add data generator, schema and SQLite test database"
+   git add diagrams dashboard
+   git commit -m "Add architecture diagrams and query result chart"
+   git add README.md
+   git commit -m "Add README with scenario, run steps and findings"
+   git add report.pdf
+   git commit -m "Add final report PDF"
+   git branch -M main
+   git remote add origin <your-repo-url>
+   git push -u origin main
