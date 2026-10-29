@@ -1,9 +1,4 @@
--- =====================================================
--- schema.sql  |  Smart factory machine data (MySQL 8.0.16+)
--- One row = one machine reading, logged every minute.
--- Production_Count and Rejected_Count are per-minute increments
--- (not running totals). Production_Count INCLUDES rejected parts.
--- =====================================================
+
 
 CREATE TABLE manufacturing_data (
     Record_ID        INT AUTO_INCREMENT PRIMARY KEY,
