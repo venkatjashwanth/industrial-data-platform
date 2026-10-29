@@ -1,9 +1,3 @@
--- =====================================================
--- queries.sql  |  Q1-Q8 for Assignment 4, Part D
--- Written for MySQL 8.0+ (CTEs and RANK() need 8.0).
--- Also tested on SQLite 3 (see README).
--- "Highest" questions use RANK(), so tied machines are all returned.
--- =====================================================
 
 -- Q1. Average temperature of each machine
 SELECT Machine_ID,
